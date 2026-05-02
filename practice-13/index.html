@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Кофейная лавка — офлайн</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Кофейная лавка</h1>
+    </header>
+    
+    <main>
+        <div class="toolbar">
+            <h2>Наш кофе</h2>
+            <button id="addBtn" class="btn btn-primary">+ Добавить кофе</button>
+        </div>
+        
+        <div id="products-container" class="products-grid">
+            <div class="loading">Загрузка...</div>
+        </div>
+    </main>
+
+    <footer>
+        <p>© 2026 Кофейная лавка — работает офлайн</p>
+    </footer>
+
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <h3 id="modalTitle">Добавить кофе</h3>
+            <form id="productForm">
+                <input type="text" id="productName" placeholder="Название" required>
+                <input type="text" id="productCategory" placeholder="Категория" required>
+                <input type="number" id="productPrice" placeholder="Цена (₽)" required>
+                <textarea id="productDescription" placeholder="Описание" rows="3" required></textarea>
+                <input type="number" id="productStock" placeholder="Количество на складе" required>
+                <div class="modal-buttons">
+                    <button type="submit" class="btn btn-primary">Сохранить</button>
+                    <button type="button" id="closeModal" class="btn btn-secondary">Отмена</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

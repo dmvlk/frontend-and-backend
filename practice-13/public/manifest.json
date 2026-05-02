@@ -1,0 +1,16 @@
+{
+  "name": "Coffee Shop",
+  "short_name": "CoffeeShop",
+  "description": "Магазин кофе",
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#8b5a2b",
+  "background_color": "#f5ebe0",
+  "icons": [
+    {
+      "src": "/images/coffee-icon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ]
+}
