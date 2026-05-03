@@ -1,0 +1,8 @@
+{
+  "name": "Кофейная лавка",
+  "short_name": "Кофе",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f5ebe0",
+  "theme_color": "#8b5a2b"
+}
